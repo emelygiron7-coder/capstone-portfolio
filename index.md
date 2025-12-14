@@ -65,4 +65,4 @@ I chose this format because it presents my Flask work clearly and professionally
 
 ## 💕 Thank You
 Thank you for reviewing my work!  
-This project reflects my growth in Python, problem-solving, UI design, and integrating AI into development workflows.
+This project reflects my growth in Python, problem-solving, UI design, and integrating AI into development workflows..
