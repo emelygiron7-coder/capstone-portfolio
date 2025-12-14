@@ -4,61 +4,71 @@
     <meta charset="UTF-8">
     <title>Emely Giron — Capstone Portfolio</title>
 
-    <!-- Pretty pink theme + cursive header font -->
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Georgia&display=swap" rel="stylesheet">
-
+    <!-- Georgia font -->
     <style>
         body {
             margin: 0;
             padding: 40px;
-            background: #ffe6ef;
+            background: #ffe6ef; /* soft pink */
             font-family: Georgia, serif;
             color: #444;
         }
 
         .box {
-            background: #fff;
+            background: #ffeef7; /* soft interior pink */
             max-width: 900px;
             margin: auto;
             padding: 30px;
             border-radius: 20px;
 
-            /* polka dots like App 1 */
-            background-image:
-                radial-gradient(#f7cfe2 20%, transparent 20%),
-                radial-gradient(#f7cfe2 20%, transparent 20%);
-            background-position: 0 0, 10px 10px;
-            background-size: 20px 20px;
-
+            /* softer shadow, no polka dots */
             box-shadow: 
-                0 0 0 6px #ffffff,
-                0 0 12px rgba(0, 0, 0, 0.15);
+                0 0 0 4px #ffffff,
+                0 0 15px rgba(0, 0, 0, 0.15);
         }
 
         h1 {
-            font-family: "Great Vibes", cursive;
-            font-size: 50px;
-            color: #cc5d8f;
+            font-size: 42px;
+            color: #b24a73;
             text-align: center;
             margin-bottom: 10px;
-        }
-
-        h2 {
-            color: #cc5d8f;
-            margin-top: 30px;
-        }
-
-        a {
-            color: #b74a7d;
             font-weight: bold;
         }
 
+        h2 {
+            color: #b24a73;
+            margin-top: 35px;
+            font-size: 26px;
+        }
+
+        h3 {
+            color: #c7668e;
+            font-size: 20px;
+        }
+
+        a {
+            color: #b24a73;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         .section {
-            background: white;
-            padding: 15px 20px;
-            border-radius: 15px;
+            background: #ffffff;
+            padding: 18px 20px;
+            border-radius: 12px;
             margin-top: 20px;
-            box-shadow: inset 0 0 10px rgba(255, 182, 193, 0.35);
+            font-size: 16px;
+            line-height: 1.5;
+            box-shadow: inset 0 0 8px rgba(255, 182, 193, 0.3);
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
         }
     </style>
 </head>
@@ -70,7 +80,11 @@
         <h1>💗 Capstone Portfolio — Emely Giron</h1>
 
         <div class="section">
-            <p>Welcome to my Capstone Portfolio! This site highlights the three Flask applications I built for my project. Each app demonstrates different skills in Python, Flask, UI design, and using generative AI responsibly.</p>
+            <p>
+                Welcome to my Capstone Portfolio! This site highlights the three Flask applications 
+                I built for my project. Each app demonstrates different skills in Python, Flask, UI 
+                design, and the thoughtful use of generative AI.
+            </p>
         </div>
 
         <h2>🌸 My Flask Applications</h2>
@@ -83,19 +97,21 @@
                 <li>Dropdown prompts</li>
                 <li>User-submitted display page</li>
             </ul>
-            <p>🔗 <a href="https://myflaskapp-1-ruoy.onrender.com" target="_blank">Live App</a></p>
-            <p>🔗 <a href="https://github.com/emelygiron7-coder/myflaskapp" target="_blank">GitHub Repo</a></p>
+            <p>🔗 <a href="https://myflaskapp-1-ruoy.onrender.com" target="_blank">Live App</a><br>
+               🔗 <a href="https://github.com/emelygiron7-coder/myflaskapp" target="_blank">GitHub Repo</a>
+            </p>
         </div>
 
         <div class="section">
             <h3>✨ App 2 — BMI Wellness Calculator</h3>
             <ul>
-                <li>Positive and gentle BMI results</li>
-                <li>Soft pink UI</li>
-                <li>User comment submission</li>
+                <li>Positive and gentle BMI messaging</li>
+                <li>Soft pink visual design</li>
+                <li>User comment page</li>
             </ul>
-            <p>🔗 <a href="https://mybmiapp-1.onrender.com" target="_blank">Live App</a></p>
-            <p>🔗 <a href="https://github.com/emelygiron7-coder/mybmiapp" target="_blank">GitHub Repo</a></p>
+            <p>🔗 <a href="https://mybmiapp-1.onrender.com" target="_blank">Live App</a><br>
+               🔗 <a href="https://github.com/emelygiron7-coder/mybmiapp" target="_blank">GitHub Repo</a>
+            </p>
         </div>
 
         <div class="section">
@@ -103,27 +119,35 @@
             <ul>
                 <li>Mood-based snack suggestions</li>
                 <li>Comment page</li>
-                <li>Multiroute Flask structure</li>
-                <li>Playful UI and cute theme</li>
+                <li>Friendly and playful UI</li>
             </ul>
-            <p>🔗 <a href="https://mysnackapp.onrender.com" target="_blank">Live App</a></p>
-            <p>🔗 <a href="https://github.com/emelygiron7-coder/mysnackapp" target="_blank">GitHub Repo</a></p>
+            <p>🔗 <a href="https://mysnackapp.onrender.com" target="_blank">Live App</a><br>
+               🔗 <a href="https://github.com/emelygiron7-coder/mysnackapp" target="_blank">GitHub Repo</a>
+            </p>
         </div>
 
         <h2>💼 Professional Links</h2>
         <div class="section">
             <p>Connect with me on LinkedIn:</p>
-            <p>👉 <a href="https://www.linkedin.com/in/emely-giron-44a26a155/" target="_blank">LinkedIn — Emely Giron</a></p>
+            <p>👉 <a href="https://www.linkedin.com/in/emely-giron-44a26a155/" target="_blank">
+                LinkedIn — Emely Giron
+            </a></p>
         </div>
 
         <h2>🌈 About This Portfolio</h2>
         <div class="section">
-            <p>This portfolio uses Render’s Static Site hosting to present my work cleanly and professionally. I chose a pink aesthetic consistent with the branding of my Flask projects.</p>
+            <p>
+                This portfolio uses Render’s static site hosting to present my Flask work in a clean, 
+                professional layout. The pink aesthetic is consistent with the branding of my Flask apps.
+            </p>
         </div>
 
         <h2>💕 Thank You</h2>
         <div class="section">
-            <p>Thank you for reviewing my work! This project reflects my growth in Python, problem-solving, UI design, and integrating AI into development workflows.</p>
+            <p>
+                Thank you for reviewing my work! This project reflects my growth in Python, problem-solving, 
+                UI design, and integrating AI tools into development.
+            </p>
         </div>
 
     </div>
